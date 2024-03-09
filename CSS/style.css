@@ -1,0 +1,94 @@
+header{
+        background-color:goldenrod;
+        height:20vh;
+        border: 3%;
+    }
+
+    body{
+        margin:0vw;
+        background-color:yellow;
+    }
+
+    .main{
+        height:30vw;
+        background-image:url(../img/fundo-banana.jpg);
+        background-repeat: no-repeat;
+        background-size:100%;
+        text-align: center;
+        margin:0;
+    }
+
+    footer{
+        padding:1vh;
+        background-color:gold;
+        height:6vw;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr ;
+        width: 100%;
+    }
+
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr ;
+        grid-template-areas: 'i t t t' ;
+    }   
+
+    #porta{
+        display: flex;
+        justify-content: space-between;
+        grid-area: i ;
+    }
+
+    .janela{
+        grid-area: t ;
+    }
+
+    #text{
+        text-align: right;
+        margin-right: 1vw;
+        
+    }
+    .here{
+        text-align: right;
+        margin-top: 3.5vw;
+        margin-right:2vw ;
+       
+    }
+    .main2{
+        height:30vw;
+        background-image:url(../img/pitaya2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color:whitesmoke;
+
+    }
+    .container2{
+       
+        background-color:lightpink
+        
+    }
+    .footer2{
+        background-color:lightsalmon;
+    }
+    .body2{
+        background-color: lightcoral;
+    }
+    .here{
+        
+    }
+    
+    
+   
+    
+    .link{
+        margin-right: 50px;
+    }
+    .titi{
+        text-align: right;
+        font-size:medium;
+        margin-left: 54%;
+        width:45%;
+
+    }
